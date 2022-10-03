@@ -2,8 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #2b1772;
 }
-
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .botonera{
     display: flex;
@@ -15,13 +20,15 @@
 .juano{
     width: 99px;
     height: 99px;
-    float: left;
 }
 
 button{
     margin-inline: 20px;
 }
-.burger{
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.burguesa{
     width: 40px;
     height: 40px;
     display: flex;
@@ -30,30 +37,38 @@ button{
 .car{
     margin-top: 99px;
 }
+.buy:hover{
+    display: none;
+}
+
 .carrusel{
     position: absolute;
-    width: 90%;
-    height: 20%;
+    width: 100%;
+    height: 10%;
+}
+.portada{
+    border:2px solid yellow;
 }
 .juegos{
     display: flex;
-    width: 25%;
+    width: 10%;
+}
+.juego{
+
+    height: 10%;
 }
 
 .portada{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     gap: 10px;
     position: absolute;
-   
     left: 15px;
     top: 0px;
 }
 .juegos:hover{
-    transform: scale(1.25);
+    transform: scale(1.09);
     filter: blur(2px);
 
 }
