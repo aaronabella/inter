@@ -37,12 +37,8 @@ h1{
 .car{
     margin-top: 99px;
 }
-.buy:hover{
-    display: none;
-}
-
 .carrusel{
-    position: absolute;
+    position: relative;
     width: 90%;
     height: 10%;
 }
@@ -50,10 +46,11 @@ h1{
     width: auto;
 }
 .juegos{
-    display: flex;
+    display: flexbox;
     width: 15%;
 }
 .juego{
+    display: flex;
     height: 10%;
 }
 
@@ -61,10 +58,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    position: absolute;
-    left: 15px;
-    top: 0px;
+    gap: 20px;
 }
 .juegos:hover{
     transform: scale(1.09);
