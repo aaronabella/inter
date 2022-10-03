@@ -43,18 +43,17 @@ h1{
 
 .carrusel{
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 10%;
 }
-.portada{
-    border:2px solid yellow;
+.carrusel.portada{
+    width: auto;
 }
 .juegos{
     display: flex;
-    width: 10%;
+    width: 15%;
 }
 .juego{
-
     height: 10%;
 }
 
