@@ -1,0 +1,62 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.juano{
+    width: 99px;
+    height: 99px;
+    float: left;
+}
+
+button{
+    margin-inline: 20px;
+}
+.burger{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+.car{
+    margin-top: 99px;
+}
+.carrusel{
+    position: absolute;
+    width: 90%;
+    height: 20%;
+}
+.juegos{
+    display: flex;
+    width: 25%;
+}
+
+.portada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+   
+    left: 15px;
+    top: 0px;
+}
+.juegos:hover{
+    transform: scale(1.25);
+    filter: blur(2px);
+
+}
+body{
+    background-color: #1F1250;
+}
