@@ -18,8 +18,8 @@
     
 }
 .juano{
-    width: 99px;
-    height: 99px;
+   width: 200px;
+   height: 150px;
 }
 
 button{
@@ -36,9 +36,11 @@ button{
     margin-top: 99px;
 }
 h1{
-    font-style: italic;
-    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
     font-weight: bold;
+    color: white;
 }
 .carrusel{
     margin: 25px;
@@ -74,10 +76,12 @@ body{
     background-color: #1F1250;
 }
 footer{
+    padding: 60px;
     background-color: #120B2A;
     margin: 0%;
 }
 .redes{
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
