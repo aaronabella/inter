@@ -71,7 +71,7 @@ body{
     margin: 0;
 }
 footer{
-    padding: 60px;
+    padding: 45px;
     background-color: #120B2A;
     margin: 0%;
 }
@@ -166,4 +166,27 @@ button{
 .userlogo{
     height: 4em;
     width: 4em;
+}
+
+.footer-description p{
+    padding-top: 20px;
+    color: white;
+}
+footer li{
+    justify-content: space-around;
+    font-size: em;
+    color: white;  
+    padding: 20px;  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    color: white;
+    background-color: #080416;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
